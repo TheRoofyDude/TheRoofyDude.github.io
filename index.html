@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<htm class="scroll-smooth" lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Portfolio Website</title>
+</head>
+
+<body>
+  <div class="bg-gradient-to-t from-chaosBgSpace to-chaosGrey bg-blend-normal">
+    <div class="relative flex flex-col overflow-hidden ">
+      <!--Nav bar-->
+      <div class="flex items-center px-4 py-4 z-30 w-screen bg-opacity-0 justify-between">
+        <div>
+          <!--Logo-->
+          <img class="w-20 md:w-full cursor-pointer" src="img/Logo.png" alt="">
+        </div>
+        <!--Menu Items-->
+        <div class="hidden md:flex space-x-6 text-chaosWhite mx-4 justify-end items-center">
+          <a href="#" class="border-2 border-chaosBlack hover:border-b-chaosRed duration-150">Home</a>
+          <a href="#" class="border-2 border-chaosBlack hover:border-b-chaosRed duration-150">About Us</a>
+          <a href="#" class="border-2 border-chaosBlack hover:border-b-chaosRed duration-150">What We Do</a>
+          <a href="#" class="border-2 border-chaosBlack hover:border-b-chaosRed duration-150">Portfolio</a>
+          <a class="button">
+            <span class="glitch caption">Contact Us</span>
+          </a>
+        </div>
+        <!--Mobile Menu Icon-->
+        <div class="md:hidden flex items-center">
+          <button class="mobile-menu-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-chaosWhite" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!--Mobile Menu-->
+      <div class="mobile-menu hidden md:hidden z-30 text-chaosWhite divide-y divide-chaosDarkGrey">
+        <a href="#" class="block py-2 px-4 text-sm hover:text-chaosRed ">Home</a>
+        <a href="#" class="block py-2 px-4 text-sm hover:text-chaosRed ">About Us</a>
+        <a href="#" class="block py-2 px-4 text-sm hover:text-chaosRed ">What We Do</a>
+        <a href="#" class="block py-2 px-4 text-sm hover:text-chaosRed ">Portfolio</a>
+        <a href="#" class="block py-2 px-4 text-sm hover:text-chaosRed ">Contact Us</a>
+      </div>
+      <!--Hero Section-->
+      <div
+        class="z-20 flex  flex-col text-center mx-2 items-center h-screen justify-center -mt-9 md:-mt-6 md:items-start md:text-left  md:ml-36">
+        <h1 class="text-3xl font-bold text-chaosWhite sm:text-3xl md:text-6xl">
+          <span>Designing & Developing </span>
+          <span class="text-chaosRed">For The Future</span>
+        </h1>
+        <p
+          class="mt-3 max-w-md mx-auto font-medium text-base text-chaosWhite sm:text-md md:mt-6 md:text-lg md:max-w-4xl md:mx-0 ">
+          Hi, We are ChaosAbsolute. We create beautiful & functional websites for small businesses with modern tech
+          stacks. Providing quality service consistently.</p>
+        <button
+          class="btn rounded-none gap-2 btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-chaosRed my-4 text-chaosWhite hover:text-chaosRed hover:border-chaosRed">
+          Let's talk
+        </button>
+      </div>
+      <!--Background Video-->
+      <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
+        <source src="img/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <!--About Us and Stats Section-->
+    <section id="About Us">
+      <div class="relative bg-chaosGrey">
+        <div class="h-80 w-full absolute bottom-0 xl:inset-0 xl:h-full">
+          <div class="h-full w-full xl:grid xl:grid-cols-2">
+            <div class="h-full xl:relative xl:col-start-2">
+              <img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
+                src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
+                alt="People working on laptops">
+              <div aria-hidden="true"
+                class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-chaosGrey xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
+          <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
+            <p class="mt-3 text-3xl font-extrabold text-white">About Us</p>
+            <div class="w-16 h-1 rounded-full bg-chaosRed inline-flex"></div>
+            <p class="mt-5 text-lg text-gray-300">ChaosAbsolute is a start-up based in Kerala,India
+              with a strong focus in Web and Game development. We consist of a team of dedicated people that work hard
+              to
+              deliver quality consistently.</p>
+            <div class="flex items-center mr-2 mt-4">
+              <a class="mr-2" href="#" aria-label="Twitter">
+                <svg
+                  class="w-7 h-7 text-gray-700 fill-current dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6-18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6.8 15 2.5 22.1-80.5-4-151.9-42.6-199.6-101.3-8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7-16-.4-31-4.8-44-12.1v1.2c0 47 33.4 86.1 77.7 95-8.1 2.2-16.7 3.4-25.5 3.4-6.2 0-12.3-.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3-33.1 26-74.9 41.5-120.3 41.5-7.8 0-15.5-.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-.1-8.4-.3-12.5C462.6 146 479 129 492 109.5z" />
+                </svg>
+              </a>
+
+              <a class="mx-2" href="#" aria-label="Facebook">
+                <svg
+                  class="w-7 h-7 text-gray-700 fill-current dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M426.8 64H85.2C73.5 64 64 73.5 64 85.2v341.6c0 11.7 9.5 21.2 21.2 21.2H256V296h-45.9v-56H256v-41.4c0-49.6 34.4-76.6 78.7-76.6 21.2 0 44 1.6 49.3 2.3v51.8h-35.3c-24.1 0-28.7 11.4-28.7 28.2V240h57.4l-7.5 56H320v152h106.8c11.7 0 21.2-9.5 21.2-21.2V85.2c0-11.7-9.5-21.2-21.2-21.2z" />
+                </svg>
+              </a>
+
+              <a class="mx-2" href="#" aria-label="Linkden">
+                <svg
+                  class="w-7 h-7 text-gray-700 fill-current dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M417.2 64H96.8C79.3 64 64 76.6 64 93.9V415c0 17.4 15.3 32.9 32.8 32.9h320.3c17.6 0 30.8-15.6 30.8-32.9V93.9C448 76.6 434.7 64 417.2 64zM183 384h-55V213h55v171zm-25.6-197h-.4c-17.6 0-29-13.1-29-29.5 0-16.7 11.7-29.5 29.7-29.5s29 12.7 29.4 29.5c0 16.4-11.4 29.5-29.7 29.5zM384 384h-55v-93.5c0-22.4-8-37.7-27.9-37.7-15.2 0-24.2 10.3-28.2 20.3-1.5 3.6-1.9 8.5-1.9 13.5V384h-55V213h55v23.8c8-11.4 20.5-27.8 49.6-27.8 36.1 0 63.4 23.8 63.4 75.1V384z" />
+                </svg>
+              </a>
+
+              <a class="mx-2" href="#" aria-label="Github">
+                <svg
+                  class="w-7 h-7 text-gray-700 fill-current dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9 1.4.3 2.6.4 3.8.4 8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1-8.4 1.9-15.9 2.7-22.6 2.7-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1 10.5 0 20-3.4 25.6-6 2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8 0 0 1.6-.5 5-.5 8.1 0 26.4 3.1 56.6 24.1 17.9-5.1 37-7.6 56.1-7.7 19 .1 38.2 2.6 56.1 7.7 30.2-21 48.5-24.1 56.6-24.1 3.4 0 5 .5 5 .5 12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5 1.2 0 2.6-.1 4-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z" />
+                </svg>
+              </a>
+            </div>
+            <div class="mt-11 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
+              <p>
+                <span class="block text-2xl font-bold text-white">100+</span>
+                <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Hours,</span> We
+                  have spend developing products.</span>
+              </p>
+
+              <p>
+                <span class="block text-2xl font-bold text-white">4</span>
+                <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Projects,</span>
+                  We
+                  have completed so far.</span>
+              </p>
+
+              <p>
+                <span class="block text-2xl font-bold text-white">98%</span>
+                <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Clients</span>
+                  have
+                  been fully Satisfied.</span>
+              </p>
+
+              <p>
+                <span class="block text-2xl font-bold text-white">4Ltr+</span>
+                <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Coffee</span>
+                  drank
+                  so far.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--What We Do Section-->
+    <section id="What We Do">
+      <div class="text-center">
+        <h1 class="sm:text-3xl text-2xl pt-12 font-medium title-font text-white">What We Do</h1>
+        <div class="w-16 h-1 rounded-full bg-chaosRed inline-flex "></div>
+      </div>
+      <div class="container px-5 pt-12 pb-24 mx-auto flex flex-wrap">
+        <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+          <div class="mockup-phone">
+            <div class="camera"></div> 
+            <div class="display">
+              <div class="artboard artboard-demo bg-[#231F20] phone-1 md:phone-2">
+                <img src="img/loading.gif" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col flex-wrap lg:py-10  -mb-10 lg:w-1/2 lg:text-left text-center">
+          <div class="flex flex-col mb-10 lg:items-start items-center ">
+            <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-chaosRed mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" />
+              </svg>                       
+            </div>
+            <div class="flex-grow ">
+              <h2 class="text-white text-lg title-font font-medium mb-3">Design</h2>
+              <p class="leading-relaxed text-base">We design websites in figma according to your specifications. We make sure your design is responsive and look good on multiple devices.</p>
+            </div>
+          </div>
+          <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-chaosRed mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+              </svg>            
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-white text-lg title-font font-medium mb-3">Development</h2>
+              <p class="leading-relaxed text-base">We develop your websites using bleeding edge tech stacks making sure it's secure,SEO-friendly and compatible on multiple devices.</p>
+            </div>
+          </div>
+          <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-chaosRed mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z" />
+              </svg>            
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-white text-lg title-font font-medium mb-3">Hosting</h2>
+              <p class="leading-relaxed text-base">We also help in hosting and maintaining your website, making sure it's properly secure and fault-tolerant.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Portfolio-->
+    <section id="Portfolio" class="text-chaosWhite body-font">
+      <div class="mt-4 text-center ">
+        <h1 class="text-4xl md:text-5xl font-medium title-font text-white mb-4">Portfolio</h1>
+        <div class="flex justify-center">
+          <div class="w-16 h-1 rounded-full bg-chaosRed inline-flex"></div>
+        </div>
+      </div>
+      <div class="container m-auto p-4 ">
+        <div class="flex flex-col md:flex-row  md:space-x-4 place-items-center md:justify-center">
+          <!-- First Col -->
+          <div class="flex w-80 flex-col  space-y-4 bg-chaosGrey ">
+            <div class="h-80 w-80 rounded-lg ">
+              <!--Modal Button-->
+              <label for="my-modal-1" class="modal-button hover:cursor-pointer"><img class="grayscale hover:grayscale-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="img/sample.jpg" alt=""></label>
+              <!--Modal Content-->
+              <input type="checkbox" id="my-modal-1" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box bg-chaosGrey w-11/12 max-w-full h-screen  ">
+                  <label for="my-modal-1" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                  <div class="flex flex-col md:flex-row justify-center">
+                    <div class="md:w-3/6 ">
+                      <div class="carousel md:h-100 w-full">
+                        <div id="slide1" class="carousel-item relative w-full">
+                          <img src="img/Gym.JPG" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide2" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide3" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide4" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-col text-left mt-3 md:mt-0 md:w-2/6 px-6">
+                      <h3 class=" text-2xl font-bold text-ChaosWhite mb-6 ">
+                        777 Fitness Hub
+                      </h3>
+                      <p class=" text-base pb-5 text-chaosDarkGrey ">Duis ad adipisicing id id in duis nisi qui veniam
+                        esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla
+                        consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis
+                        commodo.
+                        Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam
+                        duis
+                        dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor
+                        elit
+                        dolor aliquip dolore enim excepteur.</p>
+                      <div class="py-7 rounded-2xl mt-3 bg-chaosGrey">
+                        <div class="flex border-b border-chaosDarkGrey pb-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-chaosDarkGrey"> Client </p>
+                            <p class="dark:text-white">777 Fitness Hub</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#A6A6A6]"> Type </p>
+                            <p class="dark:text-white">Branding</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Year</p>
+                            <p class="dark:text-white">2022</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Hosting</p>
+                            <p class="dark:text-white">N/A</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="h-52 w-80 rounded-lg ">
+              <!--Modal Button-->
+              <label for="my-modal-2" class="modal-button"><img class="grayscale hover:grayscale-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://via.placeholder.com/320x208" alt=""></label>
+              <!--Modal Content-->
+              <input type="checkbox" id="my-modal-2" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box bg-chaosGrey w-11/12 max-w-full h-screen  ">
+                  <label for="my-modal-2" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                  <div class="flex flex-col md:flex-row justify-center">
+                    <div class="md:w-3/6 ">
+                      <div class="carousel md:h-100 w-full">
+                        <div id="slide123" class="carousel-item relative w-full">
+                          <img src="img/Gym.JPG" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide423" class="btn btn-circle">❮</a>
+                            <a href="#slide223" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide223" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide123" class="btn btn-circle">❮</a>
+                            <a href="#slide323" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide323" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide223" class="btn btn-circle">❮</a>
+                            <a href="#slide423" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide423" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide323" class="btn btn-circle">❮</a>
+                            <a href="#slide123" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-col text-left mt-3 md:mt-0 md:w-2/6 px-6">
+                      <h3 class=" text-2xl font-bold text-ChaosWhite mb-6 ">
+                        777 Fitness Hub
+                      </h3>
+                      <p class=" text-base pb-5 text-chaosDarkGrey ">Duis ad adipisicing id id in duis nisi qui veniam
+                        esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla
+                        consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis
+                        commodo.
+                        Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam
+                        duis
+                        dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor
+                        elit
+                        dolor aliquip dolore enim excepteur.</p>
+                      <div class="py-7 rounded-2xl mt-3 bg-chaosGrey">
+                        <div class="flex border-b border-chaosDarkGrey pb-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-chaosDarkGrey"> Client </p>
+                            <p class="dark:text-white">777 Fitness Hub</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#A6A6A6]"> Type </p>
+                            <p class="dark:text-white">Branding</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Year</p>
+                            <p class="dark:text-white">2022</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Hosting</p>
+                            <p class="dark:text-white">N/A</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Sec Col -->
+          <div class="mt-3 md:mt-0 flex w-80 flex-col space-y-4 bg-chaosGrey">
+            <div class="h-52 w-80 rounded-lg ">
+              <!--Modal Button-->
+              <label for="my-modal-3" class="modal-button hover:cursor-pointer"><img class="grayscale hover:grayscale-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://via.placeholder.com/320x208" alt=""></label>
+              <!--Modal Content-->
+              <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box bg-chaosGrey w-11/12 max-w-full h-screen  ">
+                  <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                  <div class="flex flex-col md:flex-row justify-center">
+                    <div class="md:w-3/6 ">
+                      <div class="carousel md:h-100 w-full">
+                        <div id="slide124" class="carousel-item relative w-full">
+                          <img src="img/Gym.JPG" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide424" class="btn btn-circle">❮</a>
+                            <a href="#slide224" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide224" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide124" class="btn btn-circle">❮</a>
+                            <a href="#slide324" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide324" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide224" class="btn btn-circle">❮</a>
+                            <a href="#slide424" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide424" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide324" class="btn btn-circle">❮</a>
+                            <a href="#slide124" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-col text-left mt-3 md:mt-0 md:w-2/6 px-6">
+                      <h3 class=" text-2xl font-bold text-ChaosWhite mb-6 ">
+                        777 Fitness Hub
+                      </h3>
+                      <p class=" text-base pb-5 text-chaosDarkGrey ">Duis ad adipisicing id id in duis nisi qui veniam
+                        esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla
+                        consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis
+                        commodo.
+                        Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam
+                        duis
+                        dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor
+                        elit
+                        dolor aliquip dolore enim excepteur.</p>
+                      <div class="py-7 rounded-2xl mt-3 bg-chaosGrey">
+                        <div class="flex border-b border-chaosDarkGrey pb-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-chaosDarkGrey"> Client </p>
+                            <p class="dark:text-white">777 Fitness Hub</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#A6A6A6]"> Type </p>
+                            <p class="dark:text-white">Branding</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Year</p>
+                            <p class="dark:text-white">2022</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Hosting</p>
+                            <p class="dark:text-white">N/A</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="h-80 w-80 rounded-lg ">
+              <!--Modal Button-->
+              <label for="my-modal-4" class="modal-button hover:cursor-pointer"><img class="grayscale hover:grayscale-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://via.placeholder.com/320x320" alt=""></label>
+              <!--Modal Content-->
+              <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box bg-chaosGrey w-11/12 max-w-full h-screen  ">
+                  <label for="my-modal-4" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                  <div class="flex flex-col md:flex-row justify-center">
+                    <div class="md:w-3/6 ">
+                      <div class="carousel md:h-100 w-full">
+                        <div id="slide125" class="carousel-item relative w-full">
+                          <img src="img/Gym.JPG" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide425" class="btn btn-circle">❮</a>
+                            <a href="#slide225" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide225" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide125" class="btn btn-circle">❮</a>
+                            <a href="#slide325" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide325" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide225" class="btn btn-circle">❮</a>
+                            <a href="#slide425" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide425" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide325" class="btn btn-circle">❮</a>
+                            <a href="#slide125" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-col text-left mt-3 md:mt-0 md:w-2/6 px-6">
+                      <h3 class=" text-2xl font-bold text-ChaosWhite mb-6 ">
+                        777 Fitness Hub
+                      </h3>
+                      <p class=" text-base pb-5 text-chaosDarkGrey ">Duis ad adipisicing id id in duis nisi qui veniam
+                        esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla
+                        consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis
+                        commodo.
+                        Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam
+                        duis
+                        dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor
+                        elit
+                        dolor aliquip dolore enim excepteur.</p>
+                      <div class="py-7 rounded-2xl mt-3 bg-chaosGrey">
+                        <div class="flex border-b border-chaosDarkGrey pb-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-chaosDarkGrey"> Client </p>
+                            <p class="dark:text-white">777 Fitness Hub</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#A6A6A6]"> Type </p>
+                            <p class="dark:text-white">Branding</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Year</p>
+                            <p class="dark:text-white">2022</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Hosting</p>
+                            <p class="dark:text-white">N/A</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Third Col -->
+          <div class="mt-3 md:mt-0 flex w-80 flex-col space-y-4 bg-chaosGrey">
+            <div class="h-80 w-80 rounded-lg col-span-1">
+              <!--Modal Button-->
+              <label for="my-modal-5" class="modal-button hover:cursor-pointer"><img class="grayscale hover:grayscale-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://via.placeholder.com/320x320" alt=""></label>
+              <!--Modal Content-->
+              <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box bg-chaosGrey w-11/12 max-w-full h-screen  ">
+                  <label for="my-modal-5" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                  <div class="flex flex-col md:flex-row justify-center">
+                    <div class="md:w-3/6 ">
+                      <div class="carousel md:h-100 w-full">
+                        <div id="slide126" class="carousel-item relative w-full">
+                          <img src="img/Gym.JPG" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide426" class="btn btn-circle">❮</a>
+                            <a href="#slide226" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide226" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide126" class="btn btn-circle">❮</a>
+                            <a href="#slide326" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide326" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide226" class="btn btn-circle">❮</a>
+                            <a href="#slide426" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide426" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide326" class="btn btn-circle">❮</a>
+                            <a href="#slide126" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-col text-left mt-3 md:mt-0 md:w-2/6 px-6">
+                      <h3 class=" text-2xl font-bold text-ChaosWhite mb-6 ">
+                        777 Fitness Hub
+                      </h3>
+                      <p class=" text-base pb-5 text-chaosDarkGrey ">Duis ad adipisicing id id in duis nisi qui veniam
+                        esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla
+                        consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis
+                        commodo.
+                        Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam
+                        duis
+                        dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor
+                        elit
+                        dolor aliquip dolore enim excepteur.</p>
+                      <div class="py-7 rounded-2xl mt-3 bg-chaosGrey">
+                        <div class="flex border-b border-chaosDarkGrey pb-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-chaosDarkGrey"> Client </p>
+                            <p class="dark:text-white">777 Fitness Hub</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#A6A6A6]"> Type </p>
+                            <p class="dark:text-white">Branding</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Year</p>
+                            <p class="dark:text-white">2022</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Hosting</p>
+                            <p class="dark:text-white">N/A</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="h-52 w-80 rounded-lg">
+              <!--Modal Button-->
+              <label for="my-modal-6" class="modal-button hover:cursor-pointer"><img class="grayscale hover:grayscale-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://via.placeholder.com/320x208" alt=""></label>
+              <!--Modal Content-->
+              <input type="checkbox" id="my-modal-6" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box bg-chaosGrey w-11/12 max-w-full h-screen  ">
+                  <label for="my-modal-6" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                  <div class="flex flex-col md:flex-row justify-center">
+                    <div class="md:w-3/6 ">
+                      <div class="carousel md:h-100 w-full">
+                        <div id="slide127" class="carousel-item relative w-full">
+                          <img src="img/Gym.JPG" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide427" class="btn btn-circle">❮</a>
+                            <a href="#slide227" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide227" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide127" class="btn btn-circle">❮</a>
+                            <a href="#slide327" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide327" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide227" class="btn btn-circle">❮</a>
+                            <a href="#slide427" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                        <div id="slide427" class="carousel-item relative w-full">
+                          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+                          <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide327" class="btn btn-circle">❮</a>
+                            <a href="#slide127" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-col text-left mt-3 md:mt-0 md:w-2/6 px-6">
+                      <h3 class=" text-2xl font-bold text-ChaosWhite mb-6 ">
+                        777 Fitness Hub
+                      </h3>
+                      <p class=" text-base pb-5 text-chaosDarkGrey ">Duis ad adipisicing id id in duis nisi qui veniam
+                        esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla
+                        consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis
+                        commodo.
+                        Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam
+                        duis
+                        dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor
+                        elit
+                        dolor aliquip dolore enim excepteur.</p>
+                      <div class="py-7 rounded-2xl mt-3 bg-chaosGrey">
+                        <div class="flex border-b border-chaosDarkGrey pb-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-chaosDarkGrey"> Client </p>
+                            <p class="dark:text-white">777 Fitness Hub</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#A6A6A6]"> Type </p>
+                            <p class="dark:text-white">Branding</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Year</p>
+                            <p class="dark:text-white">2022</p>
+                          </div>
+                        </div>
+                        <div class="flex border-b border-chaosDarkGrey py-2.5">
+                          <div class="text-left ml-2.5">
+                            <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Hosting</p>
+                            <p class="dark:text-white">N/A</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+   <section id="Contact Us">
+    <div class="mt-2">
+      <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <div class="relative bg-white  shadow-xl  rounded-2xl">
+          <h2 class="sr-only bg-black">Contact us</h2>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3">
+
+            <div
+              class="relative overflow-hidden py-10 px-6 bg-chaosGrey sm:px-10 xl:p-12 md:rounded-l-2xl rounded-t-2xl md:rounded-tr-none">
+              <div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
+                <svg class="absolute inset-0 w-full h-full" width="343" height="388" viewBox="0 0 343 388" fill="none"
+                  preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M-99 461.107L608.107-246l707.103 707.107-707.103 707.103L-99 461.107z" fill="url(#linear1)"
+                    fill-opacity=".1" />
+                  <defs>
+                    <linearGradient id="linear1" x1="254.553" y1="107.554" x2="961.66" y2="814.66"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff"></stop>
+                      <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div class="hidden absolute top-0 right-0 bottom-0 w-1/2 pointer-events-none sm:block lg:hidden"
+                aria-hidden="true">
+                <svg class="absolute inset-0 w-full h-full" width="359" height="339" viewBox="0 0 359 339" fill="none"
+                  preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M-161 382.107L546.107-325l707.103 707.107-707.103 707.103L-161 382.107z"
+                    fill="url(#linear2)" fill-opacity=".1" />
+                  <defs>
+                    <linearGradient id="linear2" x1="192.553" y1="28.553" x2="899.66" y2="735.66"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff"></stop>
+                      <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div class="hidden absolute top-0 right-0 bottom-0 w-1/2 pointer-events-none lg:block"
+                aria-hidden="true">
+                <svg class="absolute inset-0 w-full h-full" width="160" height="678" viewBox="0 0 160 678" fill="none"
+                  preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M-161 679.107L546.107-28l707.103 707.107-707.103 707.103L-161 679.107z"
+                    fill="url(#linear3)" fill-opacity=".1" />
+                  <defs>
+                    <linearGradient id="linear3" x1="192.553" y1="325.553" x2="899.66" y2="1032.66"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff"></stop>
+                      <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <h3 class="text-lg font-medium text-white">Contact information</h3>
+              <p class="mt-6 text-base text-indigo-50 max-w-3xl">Nullam risus blandit ac aliquam justo ipsum. Quam
+                mauris
+                volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
+              <dl class="mt-8 space-y-6">
+                <dt><span class="sr-only">Phone number</span></dt>
+                <dd class="flex text-base text-indigo-50">
+                  <!-- Heroicon name: outline/phone -->
+                  <svg class="flex-shrink-0 w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <span class="ml-3">+1 (555) 123-4567</span>
+                </dd>
+                <dt><span class="sr-only">Email</span></dt>
+                <dd class="flex text-base text-white">
+                  <!-- Heroicon name: outline/mail -->
+                  <svg class="flex-shrink-0 w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <span class="ml-3">support@workcation.com</span>
+                </dd>
+              </dl>
+              <ul role="list" class="mt-8 flex space-x-12">
+                <li>
+                  <a class="text-white hover:text-indigo-100" href="#">
+                    <span class="sr-only">Facebook</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6" aria-hidden="true">
+                      <path
+                        d="M22.258 1H2.242C1.556 1 1 1.556 1 2.242v20.016c0 .686.556 1.242 1.242 1.242h10.776v-8.713h-2.932V11.39h2.932V8.887c0-2.906 1.775-4.489 4.367-4.489 1.242 0 2.31.093 2.62.134v3.037l-1.797.001c-1.41 0-1.683.67-1.683 1.653v2.168h3.362l-.438 3.396h-2.924V23.5h5.733c.686 0 1.242-.556 1.242-1.242V2.242C23.5 1.556 22.944 1 22.258 1"
+                        fill="currentColor" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-indigo-100" href="#">
+                    <span class="sr-only">GitHub</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6" aria-hidden="true">
+                      <path
+                        d="M11.999 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.386.6.11.819-.26.819-.578 0-.284-.01-1.04-.017-2.04-3.337.724-4.042-1.61-4.042-1.61-.545-1.386-1.332-1.755-1.332-1.755-1.09-.744.082-.73.082-.73 1.205.086 1.838 1.238 1.838 1.238 1.07 1.833 2.81 1.304 3.493.996.109-.775.419-1.303.762-1.603C7.145 17 4.343 15.97 4.343 11.373c0-1.31.468-2.382 1.236-3.22-.124-.304-.536-1.524.118-3.176 0 0 1.007-.323 3.3 1.23.956-.266 1.983-.4 3.003-.404 1.02.005 2.046.138 3.005.404 2.29-1.553 3.296-1.23 3.296-1.23.655 1.652.243 2.872.12 3.176.77.838 1.233 1.91 1.233 3.22 0 4.61-2.806 5.624-5.478 5.921.43.37.814 1.103.814 2.223 0 1.603-.015 2.898-.015 3.291 0 .321.217.695.825.578C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12.001-12"
+                        fill="currentColor" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-indigo-100" href="#">
+                    <span class="sr-only">Twitter</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6" aria-hidden="true">
+                      <path
+                        d="M7.548 22.501c9.056 0 14.01-7.503 14.01-14.01 0-.213 0-.425-.015-.636A10.02 10.02 0 0024 5.305a9.828 9.828 0 01-2.828.776 4.94 4.94 0 002.165-2.724 9.867 9.867 0 01-3.127 1.195 4.929 4.929 0 00-8.391 4.491A13.98 13.98 0 011.67 3.9a4.928 4.928 0 001.525 6.573A4.887 4.887 0 01.96 9.855v.063a4.926 4.926 0 003.95 4.827 4.917 4.917 0 01-2.223.084 4.93 4.93 0 004.6 3.42A9.88 9.88 0 010 20.289a13.941 13.941 0 007.548 2.209"
+                        fill="currentColor" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Contact form -->
+            <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12 md:rounded-r-2xl">
+              <h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
+              <form action="#" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                <div>
+                  <label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
+                  <div class="mt-1">
+                    <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                      class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+                  </div>
+                </div>
+                <div>
+                  <label for="last-name" class="block text-sm font-medium text-gray-900">Last name</label>
+                  <div class="mt-1">
+                    <input type="text" name="last-name" id="last-name" autocomplete="family-name"
+                      class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+                  </div>
+                </div>
+                <div>
+                  <label for="email" class="block text-sm font-medium text-gray-900">Email</label>
+                  <div class="mt-1">
+                    <input id="email" name="email" type="email" autocomplete="email"
+                      class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between">
+                    <label for="phone" class="block text-sm font-medium text-gray-900">Phone</label>
+                    <span id="phone-optional" class="text-sm text-gray-500">Optional</span>
+                  </div>
+                  <div class="mt-1">
+                    <input type="text" name="phone" id="phone" autocomplete="tel"
+                      class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                      aria-describedby="phone-optional">
+                  </div>
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="subject" class="block text-sm font-medium text-gray-900">Subject</label>
+                  <div class="mt-1">
+                    <input type="text" name="subject" id="subject"
+                      class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+                  </div>
+                </div>
+                <div class="sm:col-span-2">
+                  <div class="flex justify-between">
+                    <label for="message" class="block text-sm font-medium text-gray-900">Message</label>
+                    <span id="message-max" class="text-sm text-gray-500">Max. 500 characters</span>
+                  </div>
+                  <div class="mt-1">
+                    <textarea id="message" name="message" rows="4"
+                      class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
+                      aria-describedby="message-max"></textarea>
+                  </div>
+                </div>
+                <div class="sm:col-span-2 sm:flex sm:justify-end">
+                  <button type="submit"
+                    class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-chaosRed hover:bg-chaosOpRed focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:w-auto">Submit</button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="Footer">
+    <!--footer---->
+    <footer class="body-font mt-4">
+      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <svg xmlns=" http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-chaosRed rounded-full"
+            viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl  text-white">ChaosAbsolute</span>
+        </a>
+        <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-chaosRed sm:py-2 sm:mt-0 mt-4">© 2022
+          ChaosAbsolute
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="text-white">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-white">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+              </path>
+            </svg>
+          </a>
+          <a class="ml-3 text-white">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-white">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+              </path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+  </div>
+</section>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>
