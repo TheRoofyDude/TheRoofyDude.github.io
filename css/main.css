@@ -1750,12 +1750,6 @@ html {
   width: 100%;
 }
 
-.avatar.placeholder > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .btn {
   display: inline-flex;
   flex-shrink: 0;
