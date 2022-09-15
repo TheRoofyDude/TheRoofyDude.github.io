@@ -3618,16 +3618,6 @@ body[dir="rtl"] .checkbox:checked,
   color: rgb(255 0 0 / var(--tw-text-opacity));
 }
 
-.hover\:text-gray-600:hover {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-.hover\:text-indigo-100:hover {
-  --tw-text-opacity: 1;
-  color: rgb(224 231 255 / var(--tw-text-opacity));
-}
-
 .hover\:grayscale-0:hover {
   --tw-grayscale: grayscale(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -3677,11 +3667,6 @@ body[dir="rtl"] .checkbox:checked,
   .dark\:text-\[\#A6A6A6\] {
     --tw-text-opacity: 1;
     color: rgb(166 166 166 / var(--tw-text-opacity));
-  }
-
-  .dark\:hover\:text-gray-400:hover {
-    --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity));
   }
 }
 
